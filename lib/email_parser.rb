@@ -10,8 +10,12 @@ class EmailAddressParser
     @email = email 
   end
 
+  # def parse
+  #   self.email.gsub(/[, ]/, ",").uniq
+  # end
+
   def parse
-    self.email.gsub(/[, ]/, ",").uniq
-  end
+      self.email.gsub(",","").split(" ").uniq
+    end
 
 end
