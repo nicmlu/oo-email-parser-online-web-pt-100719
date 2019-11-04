@@ -10,8 +10,8 @@ class EmailAddressParser
     @email = email 
   end
 
-  def parse(email_addresses)
-    self.email.gsub()
+  def parse
+    self.email.gsub(//)
   end
 
 end
