@@ -11,8 +11,7 @@ class EmailAddressParser
   end
 
   def parse(email_addresses)
-    email_address_parser = email_address_parser.new(email_addresses)
-    # email_arr = email_address_parser.split(/, /)
+    self.email.gsub()
   end
 
 end
